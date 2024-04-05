@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+}
+
+#logo{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#form-container{
+    width: 400px;
+    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 70px;
+}
+
+#video-streams{
+    height: 85vh;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.video-container{
+    flex-basis:500px;
+    flex-grow: 1;
+    max-height: 100%;
+    min-height= 350%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: silver;
+}
+
+.video-player{
+    height: 100%;
+    width: 100%;
+}
